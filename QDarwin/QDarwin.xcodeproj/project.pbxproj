@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15DE564E260AFD3900B9F897 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE564D260AFD3900B9F897 /* Tests_iOS.swift */; };
+		15DE5659260AFD3900B9F897 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE5658260AFD3900B9F897 /* Tests_macOS.swift */; };
+		15DE565B260AFD3900B9F897 /* QDarwinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE5632260AFD3800B9F897 /* QDarwinApp.swift */; };
+		15DE565C260AFD3900B9F897 /* QDarwinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE5632260AFD3800B9F897 /* QDarwinApp.swift */; };
+		15DE565D260AFD3900B9F897 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE5633260AFD3800B9F897 /* ContentView.swift */; };
+		15DE565E260AFD3900B9F897 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE5633260AFD3800B9F897 /* ContentView.swift */; };
+		15DE565F260AFD3900B9F897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DE5634260AFD3900B9F897 /* Assets.xcassets */; };
+		15DE5660260AFD3900B9F897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DE5634260AFD3900B9F897 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15DE564A260AFD3900B9F897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15DE562D260AFD3800B9F897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15DE5638260AFD3900B9F897;
+			remoteInfo = "QDarwin (iOS)";
+		};
+		15DE5655260AFD3900B9F897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15DE562D260AFD3800B9F897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15DE5640260AFD3900B9F897;
+			remoteInfo = "QDarwin (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15DE5632260AFD3800B9F897 /* QDarwinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QDarwinApp.swift; sourceTree = "<group>"; };
+		15DE5633260AFD3800B9F897 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15DE5634260AFD3900B9F897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15DE5639260AFD3900B9F897 /* QDarwin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDarwin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DE563C260AFD3900B9F897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DE5641260AFD3900B9F897 /* QDarwin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDarwin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DE5643260AFD3900B9F897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DE5644260AFD3900B9F897 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		15DE5649260AFD3900B9F897 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DE564D260AFD3900B9F897 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		15DE564F260AFD3900B9F897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DE5654260AFD3900B9F897 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DE5658260AFD3900B9F897 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		15DE565A260AFD3900B9F897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15DE5636260AFD3900B9F897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DE563E260AFD3900B9F897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DE5646260AFD3900B9F897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DE5651260AFD3900B9F897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15DE562C260AFD3800B9F897 = {
+			isa = PBXGroup;
+			children = (
+				15DE5631260AFD3800B9F897 /* Shared */,
+				15DE563B260AFD3900B9F897 /* iOS */,
+				15DE5642260AFD3900B9F897 /* macOS */,
+				15DE564C260AFD3900B9F897 /* Tests iOS */,
+				15DE5657260AFD3900B9F897 /* Tests macOS */,
+				15DE563A260AFD3900B9F897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15DE5631260AFD3800B9F897 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				15DE5632260AFD3800B9F897 /* QDarwinApp.swift */,
+				15DE5633260AFD3800B9F897 /* ContentView.swift */,
+				15DE5634260AFD3900B9F897 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		15DE563A260AFD3900B9F897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15DE5639260AFD3900B9F897 /* QDarwin.app */,
+				15DE5641260AFD3900B9F897 /* QDarwin.app */,
+				15DE5649260AFD3900B9F897 /* Tests iOS.xctest */,
+				15DE5654260AFD3900B9F897 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15DE563B260AFD3900B9F897 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				15DE563C260AFD3900B9F897 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		15DE5642260AFD3900B9F897 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				15DE5643260AFD3900B9F897 /* Info.plist */,
+				15DE5644260AFD3900B9F897 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		15DE564C260AFD3900B9F897 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				15DE564D260AFD3900B9F897 /* Tests_iOS.swift */,
+				15DE564F260AFD3900B9F897 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		15DE5657260AFD3900B9F897 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				15DE5658260AFD3900B9F897 /* Tests_macOS.swift */,
+				15DE565A260AFD3900B9F897 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15DE5638260AFD3900B9F897 /* QDarwin (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DE5663260AFD3A00B9F897 /* Build configuration list for PBXNativeTarget "QDarwin (iOS)" */;
+			buildPhases = (
+				15DE5635260AFD3900B9F897 /* Sources */,
+				15DE5636260AFD3900B9F897 /* Frameworks */,
+				15DE5637260AFD3900B9F897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QDarwin (iOS)";
+			productName = "QDarwin (iOS)";
+			productReference = 15DE5639260AFD3900B9F897 /* QDarwin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15DE5640260AFD3900B9F897 /* QDarwin (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DE5666260AFD3A00B9F897 /* Build configuration list for PBXNativeTarget "QDarwin (macOS)" */;
+			buildPhases = (
+				15DE563D260AFD3900B9F897 /* Sources */,
+				15DE563E260AFD3900B9F897 /* Frameworks */,
+				15DE563F260AFD3900B9F897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QDarwin (macOS)";
+			productName = "QDarwin (macOS)";
+			productReference = 15DE5641260AFD3900B9F897 /* QDarwin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15DE5648260AFD3900B9F897 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DE5669260AFD3A00B9F897 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				15DE5645260AFD3900B9F897 /* Sources */,
+				15DE5646260AFD3900B9F897 /* Frameworks */,
+				15DE5647260AFD3900B9F897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15DE564B260AFD3900B9F897 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 15DE5649260AFD3900B9F897 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		15DE5653260AFD3900B9F897 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DE566C260AFD3A00B9F897 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				15DE5650260AFD3900B9F897 /* Sources */,
+				15DE5651260AFD3900B9F897 /* Frameworks */,
+				15DE5652260AFD3900B9F897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15DE5656260AFD3900B9F897 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 15DE5654260AFD3900B9F897 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15DE562D260AFD3800B9F897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					15DE5638260AFD3900B9F897 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					15DE5640260AFD3900B9F897 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					15DE5648260AFD3900B9F897 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 15DE5638260AFD3900B9F897;
+					};
+					15DE5653260AFD3900B9F897 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 15DE5640260AFD3900B9F897;
+					};
+				};
+			};
+			buildConfigurationList = 15DE5630260AFD3800B9F897 /* Build configuration list for PBXProject "QDarwin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15DE562C260AFD3800B9F897;
+			productRefGroup = 15DE563A260AFD3900B9F897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15DE5638260AFD3900B9F897 /* QDarwin (iOS) */,
+				15DE5640260AFD3900B9F897 /* QDarwin (macOS) */,
+				15DE5648260AFD3900B9F897 /* Tests iOS */,
+				15DE5653260AFD3900B9F897 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15DE5637260AFD3900B9F897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DE565F260AFD3900B9F897 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DE563F260AFD3900B9F897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DE5660260AFD3900B9F897 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DE5647260AFD3900B9F897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DE5652260AFD3900B9F897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15DE5635260AFD3900B9F897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DE565D260AFD3900B9F897 /* ContentView.swift in Sources */,
+				15DE565B260AFD3900B9F897 /* QDarwinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DE563D260AFD3900B9F897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DE565E260AFD3900B9F897 /* ContentView.swift in Sources */,
+				15DE565C260AFD3900B9F897 /* QDarwinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DE5645260AFD3900B9F897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DE564E260AFD3900B9F897 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DE5650260AFD3900B9F897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DE5659260AFD3900B9F897 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15DE564B260AFD3900B9F897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15DE5638260AFD3900B9F897 /* QDarwin (iOS) */;
+			targetProxy = 15DE564A260AFD3900B9F897 /* PBXContainerItemProxy */;
+		};
+		15DE5656260AFD3900B9F897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15DE5640260AFD3900B9F897 /* QDarwin (macOS) */;
+			targetProxy = 15DE5655260AFD3900B9F897 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15DE5661260AFD3900B9F897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15DE5662260AFD3900B9F897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		15DE5664260AFD3A00B9F897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXFP8TLN85;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.q.QDarwin;
+				PRODUCT_NAME = QDarwin;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15DE5665260AFD3A00B9F897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXFP8TLN85;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.q.QDarwin;
+				PRODUCT_NAME = QDarwin;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15DE5667260AFD3A00B9F897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DXFP8TLN85;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.q.QDarwin;
+				PRODUCT_NAME = QDarwin;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15DE5668260AFD3A00B9F897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DXFP8TLN85;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.q.QDarwin;
+				PRODUCT_NAME = QDarwin;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		15DE566A260AFD3A00B9F897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXFP8TLN85;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.q.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QDarwin (iOS)";
+			};
+			name = Debug;
+		};
+		15DE566B260AFD3A00B9F897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXFP8TLN85;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.q.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QDarwin (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15DE566D260AFD3A00B9F897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DXFP8TLN85;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.q.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "QDarwin (macOS)";
+			};
+			name = Debug;
+		};
+		15DE566E260AFD3A00B9F897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DXFP8TLN85;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.q.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "QDarwin (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15DE5630260AFD3800B9F897 /* Build configuration list for PBXProject "QDarwin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DE5661260AFD3900B9F897 /* Debug */,
+				15DE5662260AFD3900B9F897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DE5663260AFD3A00B9F897 /* Build configuration list for PBXNativeTarget "QDarwin (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DE5664260AFD3A00B9F897 /* Debug */,
+				15DE5665260AFD3A00B9F897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DE5666260AFD3A00B9F897 /* Build configuration list for PBXNativeTarget "QDarwin (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DE5667260AFD3A00B9F897 /* Debug */,
+				15DE5668260AFD3A00B9F897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DE5669260AFD3A00B9F897 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DE566A260AFD3A00B9F897 /* Debug */,
+				15DE566B260AFD3A00B9F897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DE566C260AFD3A00B9F897 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DE566D260AFD3A00B9F897 /* Debug */,
+				15DE566E260AFD3A00B9F897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15DE562D260AFD3800B9F897 /* Project object */;
+}
